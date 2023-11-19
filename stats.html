@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recrunova</title>
+	<meta name="keywords" content="HTML5,CSS3,HTML,Template,Recrunova,VCard,Resume,CV" >
+	<meta name="description" content="Recrunova">
+	<meta name="author" content="Recrunova">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+	<!-- Include jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap-theme.min.css">
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+
+	<!-- Animsition -->
+	<link rel="stylesheet" type="text/css" href="vendors/animsition/css/animsition.min.css">
+	<script type="text/javascript" src="vendors/animsition/js/jquery.animsition.min.js"></script>
+
+	<!-- PieProgress -->
+	<link rel="stylesheet" type="text/css" href="vendors/asPieProgress/progress.css">
+	<script type="text/javascript" src="vendors/asPieProgress/jquery-asPieProgress.min.js"></script>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+
+</head>
+<body class="animsition">
+	<style>
+		/* Add your existing styles here */
+
+		/* Styles for the floating button */
+		.floating-btn {
+			position: fixed;
+			bottom: 20px; /* Adjust the distance from the bottom as needed */
+			right: 20px; /* Adjust the distance from the right as needed */
+			background-color: #333; /* Button background color */
+			color: #fff; /* Button text color */
+			font-family: 'Lato';
+			font-size: 13px;
+			font-weight: bold;
+			border: 0px;
+			border-radius: 0px;
+			box-shadow: none;
+			text-transform: uppercase;
+			padding: 10px 20px;
+			text-decoration: none;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+			.floating-btn:hover {
+				background-color: #00ffff; /* Change the background color on hover */
+			}
+	</style>
+	<!-- Burger menu
+	================================================== -->
+	<a href="javascript:;" id="burger-menu" class="burger-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<!-- Main navigation section
+	================================================== -->
+	<nav id="navigation">
+		<div class="inner-table">
+			<div class="inner-cell">
+				<div class="nav-wrapper">
+
+					<a href="javascript:;" id="close-menu">
+						<span></span>
+						<span></span>
+					</a>
+
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+
+							<ul>
+								<li>
+									<a href="home.html" class="at-link">
+										<i class="fa fa-home"></i>
+										<span>Home</span>
+									</a>
+								</li>
+								<li>
+									<a href="stats.html" class="active at-link">
+										<i class="fa fa-bar-chart"></i>
+										<span>Stats</span>
+									</a>
+								</li>
+								<li>
+									<a href="about.html" class="at-link">
+										<i class="fa fa-info"></i>
+										<span>About Us</span>
+									</a>
+								</li>
+								<li>
+									<a href="employers.html" class="at-link">
+										<i class="fa fa-globe"></i>
+										<span>For Employers</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="home.html" class="at-link">
+										<i class="fa fa-group"></i>
+										<span>For Job Seekers</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="blog.html" class="at-link">
+										<i class="fa fa-newspaper-o"></i>
+										<span>Blogs and Articles</span>
+									</a>
+								</li>
+							</ul>
+
+							<h4>Stats</h4>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<!-- Header -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+
+					<a href="home.html" id="logo" class="at-link">Recrunova</a>
+
+					<div class="page-title">
+						<div class="title-wrap">
+							<h1>Some Stats</h1>
+							<p class="lead">Where the job market is at?</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-xs-2 text-right">
+					<div class="burger-menu-wrapper">
+						<a href="javascript:;" class="burger-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--End of Header -->
+	<!-- Content section
+	================================================== -->
+	<div class="page-title">
+		<div class="title-md text-center">
+			<div class="title-wrap">
+				<a href="about.html" class="floating-btn">Contact Us</a>
+			</div>
+		</div>
+	</div>
+	<div class="container no-padding">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="title-md text-center">We Understand</h2>
+			</div>
+			<div class="col-md-12">
+
+				<div class="inner-wrapper">
+					<h4 class="text-left">
+						Embarking on a job search? Facing challenges like fierce competition, financial obligations, and networking struggles? We get it!
+					</h4>
+					<div class="col-sm-6 text-left">
+						<ul class="cross-list">
+							<li>Intense job market competition</li>
+							<li>Overwhelming financial obligations</li>
+							<li>Paralysis in taking the first step</li>
+							<li>Low confidence in resumes</li>
+							<li>Ineffective sourcing and applying strategies</li>
+							<li>Difficulty in adapting to rapidly evolving job market trends</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<ul class="cross-list text-left">
+							<li>Lack of time for skill development</li>
+							<li>Tedious application processes</li>
+							<li>Untransparent interview procedures</li>
+							<li>Networking and referral struggles</li>
+							<li>Unfulfilling job or toxic work environment</li>
+							<li>Concerns about negotiating and onboarding</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container no-padding">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="title-md text-center">Its Hard to get a Job!</h2>
+						<br>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>No Response</h5><p></p>
+								<span>59%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								59% of job seekers say they received no response after submitting a job application online.
+							</div>
+						</div>
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>LinkedIn Power </h5><p></p>
+								<span>40%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								40% of recruiters say that they have hired a candidate based on their LinkedIn profile alone. 
+							</div>
+						</div>
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Anxious Adults</h5><p></p>
+								<span>61%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								61% of adults between the age of 18 to 34 reported that they dealt with tremendous pressure and lay-off anxiety
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Lying on the resume</h5>
+								<span>40%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								It is estimated that 40% of people lie on their resumes, and three out of four employers have caught a lie on someone's resume
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Rejected</h5><p></p>
+								<span>98%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								According to According to TeamStage. Job Interview Statistics.
+								98% of candidates don’t make it to the interview process, and the 2% who do often have to go through multiple follow-up interviews.
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>UNEMPLOYMENT DURATION</h5><p></p>
+								<span>20%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								The average period of unemployment in August 2023 was almost five months
+								Around 20% of people stayed unemployed for at least 27 weeks in August 2023
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Resume Rejection</h5>
+								<span>75%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								TopResume (Gaenzle, A. 2017): 75% of resumes are rejected before they reach the hiring manager.
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>WEAK CANDIDATE PROFILES</h5><p></p>
+								<span>75%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								According to Gaenzle, A. (2017, May 16). 7 Job-Search Statistics You Should Know. TopResume
+								75 percent of resumes are rejected before they reach the hiring manager
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Layoffs</h5><p></p>
+								<span>40%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								40% of Americans have been laid off at least once in their careers
+							</div>
+						</div>
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Last Year</h5><p></p>
+								<span>28%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								28% claimed that they were laid off from their company in the previous two years
+							</div>
+						</div>
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>
+									RECURITERS LIKE IT TAILORED
+								</h5><p></p>
+								<span>83%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								83% of recruiters say they're more likely to hire a candidate who has tailored their resume to the specific job they're applying for.
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Active Job Seekers</h5>
+								<span>96%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								A staggering 96% of workers are looking for a new position in 2023, largely in search of better pay, according to a recent report by jobs site.
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>ATS rejecting due to resume format</h5><p></p>
+								<span>75%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								According to Real Life Career Advice. How to Beat Applicant Tracking Systems in 2020
+								75% of online applications get rejected by ATS simply by the way they are formatted
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>hate their jobs</h5>
+								<span>85%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								According to Staff Squared.
+								85% of people hate their jobs
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>probability of interview</h5>
+								<span>8.3%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								According to flexjobs. (2020, December 22). How Long Should a Job Search Take?
+								You have a 8.3% probability of getting a job interview from one job application
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>CASH RUNNING OUT</h5><p></p>
+								<span>73%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								According to Backman, M. (2023, March 8)
+								73% of Layoff Victims Struggle Financially Afterward.
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Unprepared Seperations</h5><p></p>
+								<span>46%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								46% of the employees reported that they were unprepared for the layoffs and separations
+							</div>
+						</div>
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>NO online Presence</h5><p></p>
+								<span>40%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								Up to 40% of recruiters may refuse to interview candidates without an online presence.
+							</div>
+						</div>
+
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Lacking Presentations</h5><p></p>
+								<span>75%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								Only 25% of resumes make it past the ATS and in front of a human recruiter! This means that 75% of resumes don’t qualify because of formatting, content, or lack of keywords.
+							</div>
+						</div>
+						<div class="progress-line">
+							<div class="entry-title">
+								<h5>Recruiter Challenges</h5>
+								<span>63%</span>
+							</div>
+							<div class="entry-line">
+								<div class="current"></div>
+								Legaljobs.io: 63% of recruiters say that their biggest problem is not being able to find enough suitable candidates to fill open positions.
+							</div>
+							<div class="progress-line">
+								<div class="entry-title">
+									<h5>Never Published</h5><p></p>
+									<span>70%</span>
+								</div>
+								<div class="entry-line">
+									<div class="current"></div>
+									According to Provisions Group. The Importance of Networking During Your Career Search
+									70% of jobs are never published publicly.
+								</div>
+							</div>
+
+							<div class="progress-line">
+								<div class="entry-title">
+									<h5>Personal and Professional Connections</h5><p></p>
+									<span>80%</span>
+								</div>
+								<div class="entry-line">
+									<div class="current"></div>
+									Up to 80% of jobs are filled through personal and professional connections.
+								</div>
+							</div>
+
+							<div class="progress-line">
+								<div class="entry-title">
+									<h5>unhappy employees</h5><p></p>
+									<span>69%</span>
+								</div>
+								<div class="entry-line">
+									<div class="current"></div>
+									According to City CV. The Value of Employee Happiness in the Workplace, 69% of unhappy employees cite not feeling valued by their employer.
+								</div>
+							</div>
+							<div class="progress-line">
+								<div class="entry-title">
+									<h5>tailored resume</h5><p></p>
+									<span>83%</span>
+								</div>
+								<div class="entry-line">
+									<div class="current"></div>
+									According to a survey conducted by Jobvite
+									83% of recruiters are more likely to hire a candidate who has tailored their resume to the specific job they’re applying for 
+								</div>
+							</div>
+						</div>
+						<!-- Add similar structures for Time Invested in Job Search, Median and Average Unemployment Time, Job Ad Transparency, Belief in Quick Job Offers, Negative Impressions, Interview Confidence, Online Job Searches and Networking, Job Satisfaction and Workplace Culture, Job Search Anxiety, Salary Negotiation, Turnover of Bad Hires, etc. -->
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="title-md text-center">Does This Relate to You?</h2>
+		</div>
+		<style>
+            .info-boxes {
+                font-family: 'Lato';
+                font-size: 13px;
+                font-weight: bold;
+                color: #fff; /* Button text color */
+            }
+		</style>
+		<div class="info-boxes">
+			<div class="ib-item" data-bg-color="#343434">
+				<img src="images/4x3.png" class="img-block">
+				<span class="img-lg" style="background-image:url(images/pages/resume/icon-1.png);"></span>
+				<div class="entry-box">
+					<span class="icon-img" style="background-image:url(images/pages/resume/icon-1.png);"></span>
+					<h3>40%</h3>
+				</div>
+				<p: infobox>Employees Think about Quitting</p>
+			</div>
+			<div class="ib-item" data-bg-color="#3b3b3b">
+				<img src="images/4x3.png" class="img-block">
+				<span class="img-lg" style="background-image:url(images/pages/resume/icon-2.png);"></span>
+				<div class="entry-box">
+					<span class="icon-img" style="background-image:url(images/pages/resume/icon-2.png);"></span>
+					<h3>60%</h3>
+				</div>
+				<p: infobox>Employees are Emotionally Detached</p>
+			</div>
+			<div class="ib-item" data-bg-color="#343434">
+				<img src="images/4x3.png" class="img-block">
+				<span class="img-lg" style="background-image:url(images/pages/resume/icon-3.png);"></span>
+				<div class="entry-box">
+					<span class="icon-img" style="background-image:url(images/pages/resume/icon-3.png);"></span>
+					<h3>84%</h3>
+				</div>
+				<p: infobox>Millennials experience burnout</p>
+			</div>
+			<div class="ib-item" data-bg-color="#3b3b3b">
+				<img src="images/4x3.png" class="img-block">
+				<span class="img-lg" style="background-image:url(images/pages/resume/icon-4.png);"></span>
+				<div class="entry-box">
+					<span class="icon-img" style="background-image:url(images/pages/resume/icon-4.png);"></span>
+					<h3>57%</h3>
+				</div>
+				<p: infobox>Workers Reported For Daily Stress</p>
+</div>
+			<div class="ib-item" data-bg-color="#343434">
+				<img src="images/4x3.png" class="img-block">
+				<span class="img-lg" style="background-image:url(images/pages/resume/icon-5.png);"></span>
+				<div class="entry-box">
+					<span class="icon-img" style="background-image:url(images/pages/resume/icon-5.png);"></span>
+					<h3>53%</h3>
+				</div>
+				<p: infobox>18-25 year-olds consider quitting</p>
+			</div>
+		</div>
+		<div class="container padding4x">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="title-md text-center">Expected Demand Growth 2024</h2>
+					<br>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="row">
+					<div class="col-md-2 col-sm-4 col-xs-6">
+
+						<div class="info-circle">
+							<div class="entry-circle">
+								<i class="fa fa-sign-out"></i>
+							</div>
+							<h3 class="title-md text-center">218K</h3>
+							<h6>Layoffs</h6>
+							<p>
+								According to Ruby, D. (2023, July 14). 70 Layoff Statistics for 2023 (Updated Figures)
+								More than 218,115 employees in tech companies have been laid off in mass job cuts so far in 2023
+							</p>
+						</div>
+
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+
+						<div class="info-circle">
+							<div class="entry-circle">
+								<i class="fa fa-hand-o-up"></i>
+
+							</div>
+							<h3 class="title-md text-center">100-200</h3>
+							<h6>The #s Game</h6>
+							<p>
+								According to Zippia. How Many Applications Does It Take to Get a Job?
+								It takes anywhere from 100 to 200 applications for the average job-seeker to receive a single job offer
+							</p>
+						</div>
+
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+
+						<div class="info-circle">
+							<div class="entry-circle">
+								<i class="fa fa-wechat"></i>
+
+							</div>
+							<h3 class="title-md text-center">5 out of 100</h3>
+							<h6>Interviews</h6>
+							<p>
+								According to Gaenzle, A. (2017, May 16). 7 Job-Search Statistics You Should Know. TopResume
+								Only about 5 applicants out of hundreds actually earn a face-to-face interview
+							</p>
+						</div>
+
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+
+						<div class="info-circle">
+							<div class="entry-circle">
+								<i class="fa fa-clock-o"></i>
+
+							</div>
+							<h3 class="title-md text-center">7 seconds</h3>
+							<h6>FIRST IMPRESSION</h6>
+							<p>
+								According to LegalJobs.io.  Interview Statistics. 39% of the candidates leave a bad impression due to their overall confidence level, voice quality, or lack of a smile. You only have 7 seconds to make a good first impression.
+							</p>
+						</div>
+
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+
+						<div class="info-circle">
+							<div class="entry-circle">
+								<i class="fa fa-comments-o"></i>
+
+							</div>
+							<h3 class="title-md text-center">50-50</h3>
+							<h6>LOVE-HATE RELATIONSHIP</h6>
+							<p>
+								According to Gallup. Problems with Onboarding Programs.
+								Employee turnover can be as much as 50% in the first four months for hourly workers and 50% in the first 18 months for senior outside hires
+							</p>
+						</div>
+
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+
+						<div class="info-circle">
+							<div class="entry-circle">
+								<i class="fa fa-meh-o"></i>
+
+							</div>
+							<h3 class="title-md text-center">61%</h3>
+							<h6>18-34 Y/O</h6>
+							<p>
+								61% of adults between the age of 18 to 34 reported that they dealt with tremendous pressure and lay-off anxiety
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="text-center">
+		<p>
+			<a href="contacts.html" class="btn">Learn More</a>
+		</p>
+		<p>Source: <a href="https://www.cnbc.com/2022/08/12/job-unhappiness-is-at-a-staggering-all-time-high-according-to-gallup.html">CNBC</a>,  <a href="https://www.cnbc.com/2021/06/15/gallup-us-workers-are-among-the-most-stressed-in-the-world.html">CNBC</a>, <a href="https://whattobecome.com/blog/employee-burnout-statistics/">What to Become</a>, <a href="https://www.weforum.org/agenda/2021/06/remote-workers-burnout-covid-microsoft-survey/">World Economic Forum</a></p>
+
+	</div>
+	<!-- Footer section
+		================================================== -->
+	<footer id="footer" class="text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="terms.html">Terms & Conditions</a></p>
+					<a href="about.html">Contact Us</a></p>
+					<a href="career.html">Career</a></p>
+					<a href="about.html">About Us</a></p>
+
+					<ul class="social">
+						<li><a href="https://www.facebook.com/recrunova"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/recrunova"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.instagram.com/realrecrunova/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/recrunova/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="http://www.youtube.com/channel/UCenjy-cEGpvExtec4MROy8Q"><i class="fa fa-YouTube"></li></a></li>
+					</ul>
+					<p>Made with love by <a href="home.html">Recrunova</a></p>
+					<a href="home.html">Recrunova</a>. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer -->
+	<!-- Scripts
+	================================================== -->
+	<script type="text/javascript" src="vendors/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="vendors/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+</html>

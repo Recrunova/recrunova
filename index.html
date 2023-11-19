@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recrunova Profile</title>
+	<meta name="keywords" content="HTML5,CSS3,HTML,Template,Recrunova" >
+	<meta name="description" content="Recrunova">
+	<meta name="author" content="Recrunova">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<!-- Include jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap-theme.min.css">
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+
+	<!-- Animsition -->
+	<link rel="stylesheet" type="text/css" href="vendors/animsition/css/animsition.min.css">
+	<script type="text/javascript" src="vendors/animsition/js/jquery.animsition.min.js"></script>
+
+	<!-- PieProgress -->
+	<link rel="stylesheet" type="text/css" href="vendors/asPieProgress/progress.css">
+	<script type="text/javascript" src="vendors/asPieProgress/jquery-asPieProgress.min.js"></script>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+
+</head>
+
+<body class="animsition">
+	<style>
+		/* Add your existing styles here */
+
+		/* Styles for the floating button */
+        .floating-btn {
+            position: fixed;
+            bottom: 20px; /* Adjust the distance from the bottom as needed */
+            right: 20px; /* Adjust the distance from the right as needed */
+            background-color: #333; /* Button background color */
+            color: #fff; /* Button text color */
+            font-family: 'Lato';
+            font-size: 13px;
+            font-weight: bold;
+            border: 0px;
+            border-radius: 0px;
+            box-shadow: none;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+			.floating-btn:hover {
+				background-color: #00ffff; /* Change the background color on hover */
+			}
+	</style>
+	<!-- Burger menu
+	================================================== -->
+	<a href="javascript:;" id="burger-menu" class="burger-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<!-- Main navigation section
+	================================================== -->
+	<nav id="navigation">
+		<div class="inner-table">
+			<div class="inner-cell">
+				<div class="nav-wrapper">
+
+					<a href="javascript:;" id="close-menu">
+						<span></span>
+						<span></span>
+					</a>
+
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+
+							<ul>
+								<li>
+									<a href="home.html" class="active at-link">
+										<i class="fa fa-home"></i>
+										<span>Home</span>
+									</a>
+								</li>
+								<li>
+									<a href="stats.html" class="at-link">
+										<i class="fa fa-bar-chart"></i>
+										<span>Stats</span>
+									</a>
+								</li>
+								<li>
+									<a href="about.html" class="at-link">
+										<i class="fa fa-info"></i>
+										<span>About Us</span>
+									</a>
+								</li>
+								<li>
+									<a href="employers.html" class="at-link">
+										<i class="fa fa-globe"></i>
+										<span>For Employers</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="home.html" class="at-link">
+										<i class="fa fa-group"></i>
+										<span>For Job Seekers</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="blog.html" class="at-link">
+										<i class="fa fa-newspaper-o"></i>
+										<span>Blogs and Articles</span>
+									</a>
+								</li>
+							</ul>
+
+							<h4>Home</h4>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+
+	<!-- Header -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+
+					<a href="home.html" id="logo" class="at-link">Recrunova</a>
+
+					<div class="page-title">
+						<div class="page-title">
+							<div class="title-wrap">
+								<a href="employers.html" class="btn">For Employers</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-xs-2 text-right">
+					<div class="burger-menu-wrapper">
+						<a href="javascript:;" class="burger-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--End of Header -->
+	<!-- Content section
+	================================================== -->
+	<section class="content no-padding">
+
+		<div class="row table-row">
+			<div class="col-md-6 hidden-sm hidden-xs" data-bg-image="images/pages/the-man.png">
+
+			</div>
+			<div class="col-md-6">
+
+				<div class="inner-wrapper">
+					<p>
+						<h3>Tired of the never-ending job hunt?</h3>
+					</p>
+					<h2>We get it – the struggle is REAL!</h2>
+					<p>
+
+					<p>
+						<br />
+						<h2 class="title-lg">🕒 Don't waste </h2><h1>600+ hours </h1> <h2 class="title-lg">of your life on uncertainty.</h2>
+					</p>
+					<p>
+						<br />
+						<h2>Land an offer in as little as 3 weeks!*</h2>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container padding4x">
+			<div class="row">
+				<div class="col-md-16">
+					<h2 class="title-md text-center">We Know, Job Hunting is Tough!</h2>
+					<br>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>Lying on the resume</h5>
+							<span>40%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							It is estimated that 40% of people lie on their resumes, and three out of four employers have caught a lie on someone's resume
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>WEAK CANDIDATE PROFILES</h5><p></p>
+							<span>75%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to Gaenzle, A. (2017, May 16). 7 Job-Search Statistics You Should Know. TopResume
+							75 percent of resumes are rejected before they reach the hiring manager
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>CASH RUNNING OUT</h5><p></p>
+							<span>73%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to Backman, M. (2023, March 8)
+							73% of Layoff Victims Struggle Financially Afterward.
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>UNEMPLOYMENT DURATION</h5><p></p>
+							<span>20%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							The average period of unemployment in August 2023 was almost five months
+							Around 20% of people stayed unemployed for at least 27 weeks in August 2023
+						</div>
+					</div>
+
+
+				</div>
+				<div class="col-sm-4">
+
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>Never Published</h5>
+							<span>70%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to Provisions Group. The Importance of Networking During Your Career Search
+							70% of jobs are never published publicly.
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>Rejected</h5><p></p>
+							<span>98%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to According to TeamStage. Job Interview Statistics.
+							98% of candidates don’t make it to the interview process, and the 2% who do often have to go through multiple follow-up interviews.
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>hate their jobs</h5>
+							<span>85%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to Staff Squared.
+							85% of people hate their jobs
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>ATS rejecting due to resume format</h5><p></p>
+							<span>75%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to Real Life Career Advice. How to Beat Applicant Tracking Systems in 2020
+							75% of online applications get rejected by ATS simply by the way they are formatted
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>probability of interview</h5>
+							<span>8.3%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to flexjobs. (2020, December 22). How Long Should a Job Search Take?
+							You have a 8.3% probability of getting a job interview from one job application
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>tailored resume</h5><p></p>
+							<span>83%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to a survey conducted by Jobvite
+							83% of recruiters are more likely to hire a candidate who has tailored their resume to the specific job they’re applying for 
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>Connections</h5><p></p>
+							<span>80%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							Up to 80% of jobs are filled through personal and professional connections.
+						</div>
+					</div>
+					<div class="progress-line">
+						<div class="entry-title">
+							<h5>unhappy employees</h5><p></p>
+							<span>69%</span>
+						</div>
+						<div class="entry-line">
+							<div class="current"></div>
+							According to City CV. The Value of Employee Happiness in the Workplace, 69% of unhappy employees cite not feeling valued by their employer.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-title">
+				<div class="title-md text-center">
+					<div class="title-wrap">
+						<a href="stats.html" class="btn">For More Stats</a>
+					</div>
+				</div>
+			</div>
+			<div class="container no-padding">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="title-md text-center">Elevating US Professionals: Mid to Executive Levels, All Industries</h2>
+						<br>
+					</div>
+				</div>
+
+				<div class="row">
+					<!-- Category: Technical Roles -->
+					<div class="col-sm-4">
+						<h3 class="sub-title">Technical Roles</h3>
+						<ul class="check-list">
+							<li>AI Engineer</li>
+							<li>Machine Learning Engineer</li>
+							<li>Data Scientist</li>
+							<li>Software Engineer</li>
+							<li>DevOps Engineer</li>
+							<li>Data Engineer</li>
+							<li>Database Administrator</li>
+							<li>Cloud Solutions Architect</li>
+						</ul>
+					</div>
+
+					<!-- Category: Management and Leadership -->
+					<div class="col-sm-4">
+						<h3 class="sub-title">Management and Leadership</h3>
+						<ul class="check-list">
+							<li>IT Manager</li>
+							<li>Product Manager</li>
+							<li>Project Manager</li>
+							<li>Program Manager</li>
+							<li>DevOps Manager</li>
+							<li>Quality Assurance Manager</li>
+							<li>Chief Technology Officer (CTO)</li>
+							<li>Chief Data Officer (CDO)</li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<h3 class="sub-title">Cybersecurity and IT Security</h3>
+						<ul class="check-list">
+							<li>Cybersecurity Analyst</li>
+							<li>Security Architect</li>
+							<li>Penetration Tester</li>
+							<li>Information Security Manager</li>
+							<li>Security Operations Center (SOC) Analyst</li>
+							<li>Identity and Access Management (IAM) Specialist</li>
+							<li>Security Compliance Analyst</li>
+							<li>Incident Responder</li>
+						</ul>
+					</div>
+					<!-- Category: Business and Analysis -->
+					<div class="col-sm-4">
+						<h3 class="sub-title">Business and Analysis</h3>
+						<ul class="check-list">
+							<li>Financial Analyst</li>
+							<li>Business Analyst</li>
+							<li>Marketing Specialist</li>
+							<li>Sales Representative</li>
+							<li>Customer Success Manager</li>
+							<li>Talent Acquisition Specialist</li>
+							<li>Human Resources Manager</li>
+							<li>Chief Financial Officer (CFO)</li>
+						</ul>
+					</div>
+
+					<!-- Category: Design and User Experience -->
+					<div class="col-sm-4">
+						<h3 class="sub-title">Design and User Experience</h3>
+						<ul class="check-list">
+							<li>UX/UI Designer</li>
+							<li>Product Design Lead</li>
+							<li>Creative Director</li>
+							<li>Design Strategist</li>
+							<li>Interaction Designer</li>
+							<li>Usability Tester</li>
+							<li>Visual Designer</li>
+							<li>Information Architect</li>
+						</ul>
+					</div>
+					<!-- Category: Sales and Marketing -->
+					<div class="col-sm-4">
+						<h3 class="sub-title">Sales and Marketing</h3>
+						<ul class="check-list">
+							<li>Sales Manager</li>
+							<li>Digital Marketing Strategist</li>
+							<li>Content Marketing Specialist</li>
+							<li>SEO Specialist</li>
+							<li>Brand Manager</li>
+							<li>Public Relations Specialist</li>
+							<li>Event Marketing Manager</li>
+							<li>Market Research Analyst</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<h3 class="title-md text-center">And More</h3>
+			<div class="page-title">
+				<div class="title-md text-center">
+					<div class="title-wrap">
+						<a href="about.html" class="floating-btn">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container no-padding">
+			<div class="col-md-12">
+				<h2 class="title-md text-center">WHAT WE OFFER</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="price-box">
+					<div class="entry-item">
+						<div class="circle-label">
+							<div class="inner-table">
+								<div class="inner-cell">
+									<h6>JOE</h6>
+									<p>Offers</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="box-info">
+							<h4>Job Offer Engine</h4>
+							<p>
+							<p>We specialize in fast-tracking experienced professionals in the US to secure multiple desirable job offers within 3 weeks, guaranteed. Our unique approach addresses key job search challenges, providing a comprehensive end-to-end solution, unlike competitors who offer partial services. We ensure quality control, offer a free consultation, and promise a shorter job placement lifecycle.</p>
+							<br />Our flexible payment plans and reasonable pricing model set us apart, with a focus on mid-senior professionals in the tech and management consulting domains. Unlike existing solutions, we handle the entire job search journey, leveraging our outsourcing expertise and extensive experience in tech and recruitment.
+							<br />
+							<h4 class="title-lg">“Just Show Up for the Interview, Nothing Else”</h4>
+
+							<!-- Button to open the dialog -->
+							<button onclick="openDialog2()">Sign Up</button>
+
+							<!-- Dialog box -->
+							<div id="dialog2" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: white; border: 1px solid #ccc; z-index: 9999;">
+								<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDxMbU4jdRmWRA_np1hQb16EdfFi9O1bVK3deoMlWmlUg8MA/viewform?embedded=true" width="400" height="400" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+								<br>
+								<button onclick="closeDialog2()">Close</button>
+							</div>
+
+							<script>
+								function openDialog2() {
+									// Display the dialog
+									document.getElementById('dialog2').style.display = 'block';
+								}
+
+								function closeDialog2() {
+									// Close the dialog
+									document.getElementById('dialog2').style.display = 'none';
+								}
+							</script>
+							<style>
+								/* Style for the dropdown button */
+								.dropdown-btn {
+									bottom: 20px; /* Adjust the distance from the bottom as needed */
+									right: 20px; /* Adjust the distance from the right as needed */
+									background-color: #333; /* Button background color */
+									color: #fff; /* Button text color */
+									font-family: 'Lato';
+									font-size: 13px;
+									font-weight: bold;
+								}
+								/* Style for the dropdown content */
+								.dropdown-content {
+									display: none;
+									position: relative;
+									background-color: #f9f9f9;
+									min-width: 16px;
+									box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+									z-index: 1;
+								}
+
+									/* Style for the dropdown items */
+									.dropdown-content a {
+										padding: 12px 16px;
+										display: block;
+										text-decoration: none;
+										color: #333;
+									}
+
+								/* Style for the arrow icon */
+								.arrow {
+									float: right;
+								}
+								/* Style for the item description */
+								.item-description {
+									display: none;
+									position: relative;
+									background-color: #77d5f1;
+									padding: 1px;
+									box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+									z-index: 1;
+									bottom: 100%; /* Move to the right of the parent */
+									top: 0;
+								}
+
+									/* Show description on hover */
+									.dropdown-content a:hover + .item-description,
+									.item-description:hover {
+										display: block;
+									}
+							</style>
+							<button class="dropdown-btn" onclick="toggleDropdown('dropdown1')">Learn More</button>
+							<div class="dropdown-content" id="dropdown1">
+								<a>Profile Building</a>
+								<div class="item-description">We create standout resumes in 12-20 hours, showcasing your unique experiences for maximum impact in the job market.</div>
+								<a>Source Matching</a>
+								<div class="item-description">With a 99%+ matchmaking guarantee, we apply to 1000+ jobs, ensuring a comprehensive approach to secure the right opportunities.</div>
+								<a>Maximize Brand</a>
+								<div class="item-description">Daily posts and A/B testing on LinkedIn optimize your profile for increased views by 20% WoW, making you a top candidate.</div>
+								<a>Strategic Network</a>
+								<div class="item-description">Connect with 100+ future hiring managers weekly, receive interview training, and tailored preparation for each company to enhance networking and interview capabilities.</div>
+								<a>Upskill Journey</a>
+								<div class="item-description">Personalized development plans with top-notch courses ensure you're well-prepared for your desired job, including interview simulations and case study solving.</div>
+								<a>Secure Offers</a>
+								<div class="item-description">Enjoy a 90-day onboarding plan, salary negotiation training, and a jobs placement guarantee within 21-90 days, backed by continuous support until you land the right offer.</div>
+								<a>Client Success</a>
+								<div class="item-description">Oversight of application progress, branding, and networking, coupled with 1:1 support, ensures profile optimization and emotional support. Our team's expertise and career coaching contribute to your overall success with flexible payment plans and risk-sharing.</div>
+							</div>
+							<script>
+								// Function to toggle the display of the dropdown content
+								function toggleDropdown(dropdownId) {
+									var dropdownContent = document.getElementById(dropdownId);
+									if (dropdownContent.style.display === 'block') {
+										dropdownContent.style.display = 'none';
+									} else {
+										dropdownContent.style.display = 'block';
+									}
+								}
+								// Close dropdown when clicking outside
+								document.addEventListener('click', function (event) {
+									var dropdowns = document.getElementsByClassName('dropdown-content');
+									for (var i = 0; i < dropdowns.length; i++) {
+										var dropdown = dropdowns[i];
+										if (!event.target.matches('.dropdown-btn') && !event.target.matches('.item-description') && !dropdown.contains(event.target)) {
+											dropdown.style.display = 'none';
+										}
+									}
+								});
+							</script>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="price-box">
+					<div class="entry-item">
+						<div class="circle-label">
+							<div class="inner-table">
+								<div class="inner-cell">
+									<h6>MOE</h6>
+									<p>Opportunities</p>
+								</div>
+							</div>
+						</div>
+						<div class="box-info">
+							<h4>Monthly Opportunities Engine</h4>
+							<p>
+								MOE, the Monthly Opportunities Engine, revolutionizes the job search process for mid-senior professionals in the US, particularly in the tech industry. Unlike traditional services, MOE operates on a performance-based pricing model, charging a reasonable upfront fee and only collecting 3.5% of the client's annual salary if they secure at least 7 interviews within 90 days. This unique approach breaks financial barriers, making high-quality job search assistance accessible.
+							<br />The process involves a free consultation, resume optimization with dedicated coaching, and automated application to over 750 jobs on company websites, saving clients significant time and effort. MOE's personalized, efficient, and performance-driven strategy sets it apart from other job search services.</p>
+							<h4 class="title-lg">7 Interviews in 30 Days, Save 160 Hours – Effortlessly Elevate Your.</h4>
+							<!-- Button to open the dialog -->
+							<button onclick="openDialog3()">Join Waiting List</button>
+
+							<!-- Dialog box -->
+							<div id="dialog3" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: white; border: 1px solid #ccc; z-index: 9999;">
+								<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQORdMIK9h6qGRpnDyO_6h9Uhx-mPnWCWHanBQ2hVhRN9T6g/viewform?embedded=true" width="400" height="400" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+								<br>
+								<button onclick="closeDialog3()">Close</button>
+							</div>
+
+							<script>
+								function openDialog3() {
+									// Display the dialog
+									document.getElementById('dialog3').style.display = 'block';
+								}
+
+								function closeDialog3() {
+									// Close the dialog
+									document.getElementById('dialog3').style.display = 'none';
+								}
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div data-bg-color="#04b47c" class="padding4x">
+
+					<div class="container">
+
+						<div class="row">
+							<div class="col-md-12">
+								<h3 class="title-md text-center text-light">Find Us ON <a href="https://www.trustpilot.com/review/recrunova.com">TRUSTPILOT</a><br /><img src="images/trust.png" alt="author" style="width: 200px;"> </h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+
+								<!-- additional class testimonial with: color-normal -->
+								<div class="testimonial">
+									<div class="border-helper">
+										<div class="left-side"></div>
+										<div class="right-side"></div>
+									</div>
+									<div class="entry-item">
+										<div class="avatar">
+											<div class="radius-cutter">
+												<div class="radius"></div>
+											</div>
+											<img src="images/pages/resume/member.png" alt="author">
+										</div>
+										<blockquote>
+											<h3>One stop shop to find your new job</h3>
+											It was a great experience speaking with Recrunova. They have a really well-coordinated team that works in sync with each other to help you understand market opportunities and the ways to brand or present yourself. They spend resume-building suggestions as well as hold interviews to prepare you for the actual ones with future employers.
+
+											If you are in the market looking for new opportunities, Recrunova is there to guide you in your journey.
+
+											Date of experience: March 23, 2023
+											<cite>Dhruv</cite>
+										</blockquote>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-md-6">
+
+								<!-- additional class testimonial with: color-normal -->
+								<div class="testimonial">
+									<div class="border-helper">
+										<div class="left-side"></div>
+										<div class="right-side"></div>
+									</div>
+									<div class="entry-item">
+										<div class="avatar">
+											<div class="radius-cutter">
+												<div class="radius"></div>
+											</div>
+											<img src="images/pages/resume/member.png" alt="author">
+										</div>
+										<blockquote>
+											<h3>Get acquainted with Recrunova's team</h3>
+											Get acquainted with Recrunova's team, and learning about the company and its success stories, has proven to be a valuable addition to my  journey. I express gratitude to Riwa and Mohamad for this opportunity
+
+											Date of experience: September 26, 2023
+											<cite>Safaa Saleh</cite>
+										</blockquote>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+				<div class="container padding4x">
+
+
+					<div class="container padding">
+						<div class="row">
+							<div class="col-md-12">
+								<h2 class="title-md text-center">ARE YOU AN EMPLOYER?</h2>
+
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+
+						<div class="price-box">
+							<div class="entry-item">
+								<div class="circle-label">
+									<div class="inner-table">
+										<div class="inner-cell">
+											<h6>CHASE</h6>
+											<p>Head Hunting</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="box-info">
+									<h4>Candidate Headhunting and Search Engine</h4>
+									<p>Revolutionizing talent acquisition for American businesses, CHASE brings over 20 years of expertise in recruitment, tech, and finance to source top-tier talent locally and internationally at half the cost and twice the speed. Our approach cuts your recruitment expenses, implements targeted lead generation, and ensures strategic succession planning.</p>
+									<p>Industry specialties include Tech, Banking, Energy, Manufacturing, Construction, Consumer Products, Life Sciences, and Professional Services. Choose CHASE for agile and cost-effective talent acquisition aligned with your business goals.</p>
+									<br />
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-6 col-sm-6">
+
+						<div class="price-box">
+							<div class="entry-item">
+								<div class="circle-label">
+									<div class="inner-table">
+										<div class="inner-cell">
+											<h6>ROSE</h6>
+											<p>Out-sourcing & Staffing</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="box-info">
+									<h4>Recruitment, Outsourcing, and Staffing Engine</h4>
+									<p>
+									<p>With ROSE as your partner, experience up to 90% overhead cost reductions and a streamlined talent acquisition process. Our unique approach combines rapid placement, competency, and unparalleled cost savings. We serve a diverse range of forward-thinking companies, from startups to established corporations, maximizing their human resource investments.</p>
+
+									<p>Unlock a new realm of financial agility and innovation capacity with ROSE. As international labor practices become essential for competitiveness, we ensure your company remains at the forefront of success. Join us in reshaping the future of recruitment and staffing.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="page-title">
+						<div class="title-md text-center">
+							<div class="title-wrap">
+								<a href="employers.html" class="btn">For Employers</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+</section>
+
+
+	<!-- Footer section
+	================================================== -->
+	<footer id="footer" class="text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="terms.html">Terms & Conditions</a></p>
+					<a href="about.html">Contact Us</a></p>
+					<a href="career.html">Career</a></p>
+					<a href="about.html">About Us</a></p>
+
+					<ul class="social">
+						<li><a href="https://www.facebook.com/recrunova"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/recrunova"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.instagram.com/realrecrunova/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/recrunova/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="http://www.youtube.com/channel/UCenjy-cEGpvExtec4MROy8Q"><i class="fa fa-YouTube"></li></a></li>
+					</ul>
+					<p>Made with love by <a href="home.html">Recrunova</a></p>
+					<a href="home.html">Recrunova</a>. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer -->
+	<!-- Scripts
+	================================================== -->
+	<script type="text/javascript" src="vendors/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="vendors/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+</html>

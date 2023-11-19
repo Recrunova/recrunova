@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recrunova Employers</title>
+    <meta name="keywords" content="HTML5,CSS3,HTML,Template,Recrunova">
+    <meta name="description" content="Recrunova">
+    <meta name="author" content="Recrunova">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Include jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+
+    <!-- Animsition -->
+    <link rel="stylesheet" type="text/css" href="vendors/animsition/css/animsition.min.css">
+    <script type="text/javascript" src="vendors/animsition/js/jquery.animsition.min.js"></script>
+
+    <!-- PieProgress -->
+    <link rel="stylesheet" type="text/css" href="vendors/asPieProgress/progress.css">
+    <script type="text/javascript" src="vendors/asPieProgress/jquery-asPieProgress.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+</head>
+<body class="animsition">
+    <style>
+        /* Add your existing styles here */
+
+        /* Styles for the floating button */
+        .floating-btn {
+            position: fixed;
+            bottom: 20px; /* Adjust the distance from the bottom as needed */
+            right: 20px; /* Adjust the distance from the right as needed */
+            background-color: #333; /* Button background color */
+            color: #fff; /* Button text color */
+            font-family: 'Lato';
+            font-size: 13px;
+            font-weight: bold;
+            border: 0px;
+            border-radius: 0px;
+            box-shadow: none;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .floating-btn:hover {
+                background-color: #00ffff; /* Change the background color on hover */
+            }
+    </style>
+    <!-- Burger menu
+    ================================================== -->
+    <a href="javascript:;" id="burger-menu" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+    <!-- Main navigation section
+    ================================================== -->
+    <nav id="navigation">
+        <div class="inner-table">
+            <div class="inner-cell">
+                <div class="nav-wrapper">
+
+                    <a href="javascript:;" id="close-menu">
+                        <span></span>
+                        <span></span>
+                    </a>
+
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4">
+
+                            <ul>
+                                <li>
+                                    <a href="home.html" class="at-link">
+                                        <i class="fa fa-home"></i>
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="stats.html" class="at-link">
+                                        <i class="fa fa-bar-chart"></i>
+                                        <span>Stats</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="at-link">
+                                        <i class="fa fa-info"></i>
+                                        <span>About Us</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="employers.html" class="active at-link">
+                                        <i class="fa fa-globe"></i>
+                                        <span>For Employers</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="home.html" class="at-link">
+                                        <i class="fa fa-group"></i>
+                                        <span>For Job Seekers</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="blog.html" class="at-link">
+                                        <i class="fa fa-newspaper-o"></i>
+                                        <span>Blogs and Articles</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <h4>For Employers</h4>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10">
+
+                    <a href="home.html" id="logo" class="at-link">Recrunova</a>
+
+                    <div class="page-title">
+                        <div class="title-wrap">
+                            <a href="home.html" class="btn">For Job Seekers</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-2 text-right">
+                    <div class="burger-menu-wrapper">
+                        <a href="javascript:;" class="burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End of Header -->
+    <!-- Content section
+    ================================================== -->
+    <section class="content no-padding">
+
+        <div class="row table-row">
+            <div class="col-md-6 hidden-sm hidden-xs" data-bg-image="images/emp.jpg">
+                <div class="page-title">
+                    <div class="title-md text-center">
+                        <div class="title-wrap">
+                            <a href="about.html" class="floating-btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="inner-wrapper">
+                    <p>
+                        <h3>Welcome to Recrunova, where strategic talent solutions redefine success.</h3>
+                    </p>
+                    <h2 class="title-lg">Our Pillars: ROSE and CHASE</h2>
+                    <p>
+                        Embodying our commitment to transforming businesses through seamless staffing, cost-effective outsourcing,
+                        and top-tier talent acquisition.
+                    </p>
+                    <p>
+                        <h2>ROSE (Recruitment, Outsourcing, and Staffing Engine):</h2>
+                        Empower your business with ROSE, specializing in swift talent acquisition, providing a competitive edge through
+                        cost-effective outsourcing. Partner with ROSE to optimize staffing solutions, unlocking financial agility, and
+                        driving growth.
+                    </p>
+                    <p>
+                        <h2>CHASE - Your Candidate Headhunting and Search Engine:</h2>
+                        Propel your business forward with CHASE, our dedicated solution for headhunting top-tier talent locally and
+                        internationally. Benefit from over 20 years of expertise, cost-efficient recruitment, and targeted lead
+                        generation in industries such as tech, finance, and more.
+                    </p>
+                    <p>
+                        Choose Recrunova for strategic talent solutions, ensuring your business stays ahead in a competitive market.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="title-md text-center">Does This Relate to You?</h2>
+            </div>
+            <style>
+                .info-boxes {
+                    font-family: 'Lato';
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: #fff; /* Button text color */
+                }
+            </style>
+            <div class="info-boxes">
+                <div class="ib-item" data-bg-color="#343434">
+                    <img src="images/4x3.png" class="img-block">
+                    <span class="img-lg" style="background-image:url(images/pages/resume/icon-1.png);"></span>
+                    <div class="entry-box">
+                        <span class="icon-img" style="background-image:url(images/pages/resume/icon-1.png);"></span>
+                        <h3>40%</h3>
+                    </div>
+                    <p: infobox>Employees Think about Quitting</p>
+                </div>
+                <div class="ib-item" data-bg-color="#3b3b3b">
+                    <img src="images/4x3.png" class="img-block">
+                    <span class="img-lg" style="background-image:url(images/pages/resume/icon-2.png);"></span>
+                    <div class="entry-box">
+                        <span class="icon-img" style="background-image:url(images/pages/resume/icon-2.png);"></span>
+                        <h3>60%</h3>
+                    </div>
+                    <p: infobox>Employees are Emotionally Detached</p>
+                </div>
+                <div class="ib-item" data-bg-color="#343434">
+                    <img src="images/4x3.png" class="img-block">
+                    <span class="img-lg" style="background-image:url(images/pages/resume/icon-3.png);"></span>
+                    <div class="entry-box">
+                        <span class="icon-img" style="background-image:url(images/pages/resume/icon-3.png);"></span>
+                        <h3>84%</h3>
+                    </div>
+                    <p: infobox>Millennials experience burnout</p>
+                </div>
+                <div class="ib-item" data-bg-color="#3b3b3b">
+                    <img src="images/4x3.png" class="img-block">
+                    <span class="img-lg" style="background-image:url(images/pages/resume/icon-4.png);"></span>
+                    <div class="entry-box">
+                        <span class="icon-img" style="background-image:url(images/pages/resume/icon-4.png);"></span>
+                        <h3>57%</h3>
+                    </div>
+                    <p: infobox>Workers Reported For Daily Stress</p>
+                </div>
+                <div class="ib-item" data-bg-color="#343434">
+                    <img src="images/4x3.png" class="img-block">
+                    <span class="img-lg" style="background-image:url(images/pages/resume/icon-5.png);"></span>
+                    <div class="entry-box">
+                        <span class="icon-img" style="background-image:url(images/pages/resume/icon-5.png);"></span>
+                        <h3>53%</h3>
+                    </div>
+                    <p: infobox>18-25 year-olds consider quitting</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-title content no-padding">">
+            <div class="title-md text-center">
+                <div class="title-wrap">
+                    <a href="stats.html" class="btn">For More Stats</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container padding4x">
+            <div class="col-md-12">
+                <h2 class="title-md text-center">WHAT WE OFFER</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+
+                <div class="price-box">
+                    <div class="entry-item">
+                        <div class="circle-label">
+                            <div class="inner-table">
+                                <div class="inner-cell">
+                                    <h6>CHASE</h6>
+                                    <p>Head Hunting</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-info">
+                            <h4>Candidate Headhunting and Search Engine</h4>
+
+                            <p>Revolutionizing talent acquisition for American businesses, CHASE brings over 20 years of expertise in recruitment, tech, and finance to source top-tier talent locally and internationally at half the cost and twice the speed. Our approach cuts your recruitment expenses, implements targeted lead generation, and ensures strategic succession planning.</p>
+                            <p>Industry specialties include Tech, Banking, Energy, Manufacturing, Construction, Consumer Products, Life Sciences, and Professional Services. Choose CHASE for agile and cost-effective talent acquisition aligned with your business goals.</p>
+                            <br />
+                            <!-- Button to open the dialog -->
+                            <button onclick="openDialog4()">Contact Sales</button>
+
+                            <!-- Dialog box -->
+                            <div id="dialog4" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: white; border: 1px solid #ccc; z-index: 9999;">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeswh5OXe6-3BLC2SBompT2hL5HIZYjlrVX7KlrcvQQyDUfYg/viewform?embedded=true" width="400" height="400" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                <br>
+                                <button onclick="closeDialog4()">Close</button>
+                            </div>
+
+                            <script>
+                                function openDialog4() {
+                                    // Display the dialog
+                                    document.getElementById('dialog4').style.display = 'block';
+                                }
+
+                                function closeDialog4() {
+                                    // Close the dialog
+                                    document.getElementById('dialog4').style.display = 'none';
+                                }
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+
+                <div class="price-box">
+                    <div class="entry-item">
+                        <div class="circle-label">
+                            <div class="inner-table">
+                                <div class="inner-cell">
+                                    <h6>ROSE</h6>
+                                    <p>Out-sourcing & Staffing</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box-info">
+                            <h4>Recruitment, Outsourcing, and Staffing Engine</h4>
+                            <p>
+                            <p>With ROSE as your partner, experience up to 90% overhead cost reductions and a streamlined talent acquisition process. Our unique approach combines rapid placement, competency, and unparalleled cost savings. We serve a diverse range of forward-thinking companies, from startups to established corporations, maximizing their human resource investments.</p>
+
+                            <p>Unlock a new realm of financial agility and innovation capacity with ROSE. As international labor practices become essential for competitiveness, we ensure your company remains at the forefront of success. Join us in reshaping the future of recruitment and staffing.</p>
+
+                            <!-- Button to open the dialog -->
+                            <button onclick="openDialog5()">Contact Sales</button>
+
+                            <!-- Dialog box -->
+                            <div id="dialog5" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: white; border: 1px solid #ccc; z-index: 9999;">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjeBbGIxJ3xLEMqVsG9aktimnoIl93HVTTygzqRAonuvZlfQ/viewform?embedded=true" width="400" height="400" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                <br>
+                                <button onclick="closeDialog5()">Close</button>
+                            </div>
+
+                            <script>
+                                function openDialog5() {
+                                    // Display the dialog
+                                    document.getElementById('dialog5').style.display = 'block';
+                                }
+
+                                function closeDialog5() {
+                                    // Close the dialog
+                                    document.getElementById('dialog5').style.display = 'none';
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title-md text-center">COULDN'T FIND WHAT YOU WERE LOOKING FOR?</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box-center">
+
+                        <div class="price-box">
+                            <div class="entry-item">
+                                <div class="circle-label">
+                                    <div class="inner-table">
+                                        <div class="inner-cell">
+                                            <h6>Custom</h6>
+                                            <p>Solution Hub</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-info">
+                                    <h4>Tailored Solutions Await: Contact Recrunova for Your Customized Business Success</h4>
+                                    <p>If you haven't found the precise services you're seeking, rest assured that Recrunova is committed to tailoring solutions to meet your unique needs. Contact us, and our dedicated team will work closely with you to understand your requirements and provide the best-in-class solutions to propel your business forward. Your success is our priority.</p>
+                                    <br />
+                                    <p>
+                                        <!-- Button to open the dialog -->
+                                        <button onclick="openDialog2()">Sign Up</button>
+
+                                        <!-- Dialog box -->
+                                        <div id="dialog2" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: white; border: 1px solid #ccc; z-index: 9999;">
+                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGvJk9KvOJAEFDpKmYaRMnZLxBwcjvYwsBJcFkJ2-j9zHo6A/viewform?embedded=true" width="400" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                            <br>
+                                            <button onclick="closeDialog2()">Close</button>
+                                        </div>
+
+                                        <script>
+                                            function openDialog2() {
+                                                // Display the dialog
+                                                document.getElementById('dialog2').style.display = 'block';
+                                            }
+
+                                            function closeDialog2() {
+                                                // Close the dialog
+                                                document.getElementById('dialog2').style.display = 'none';
+                                            }
+                                        </script>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Footer section
+    ================================================== -->
+    <footer id="footer" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="terms.html">Terms & Conditions</a></p>
+                    <a href="about.html">Contact Us</a></p>
+                    <a href="career.html">Career</a></p>
+                    <a href="about.html">About Us</a></p>
+
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/recrunova"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/recrunova"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/realrecrunova/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/recrunova/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://www.youtube.com/channel/UCenjy-cEGpvExtec4MROy8Q"><i class="fa fa-YouTube"></li></a></li>
+                    </ul>
+                    <p>Made with love by <a href="home.html">Recrunova</a></p>
+                    <a href="home.html">Recrunova</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- Scripts
+    ================================================== -->
+    <script type="text/javascript" src="vendors/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="vendors/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/common.min.js"></script>
+
+
+
+</body>
+</html>
